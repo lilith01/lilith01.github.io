@@ -1,106 +1,49 @@
-body {
- color: lawngreen;
+body {font-family: courier;color: greenyellow; background-color: grey; padding: 10px;
+}
+
+#container{
     background-color: black;
-    margin: 0;
-font-family: courier;
+        width: 800px;
+    margin-left: auto;
+        margin-right: auto;
+    padding: 15px;
+            
 }
 
-#header {
-    background-color: forestgreen;
-    height: 60px;
-    line-height: 50px;
+#content {
+    padding: 10px;
 }
-
-#header a {
-    padding: 20px
-}
-
-#header a {
-    color: white;
-    text-decoration: none;
+#nav {text-align: center; color: black;
+    border: dotted;
+    border padding: 15px;
     
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-#header a: hover {
-    color: fuchsia;
-}
-
-#header-title {
-    display: block;
+    background-color: greenyellow;
+        width: 100px;
+    padding: 10px;
     float: left;
-    
-    font-size: 20px;
-        font-weight: bold;
+
 }
-#header-nav {
-    display: block;
+#nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#nav li { 
+border: dotted;
+padding: 5px;}
+#mainheader
+{
+   
+    width: 600px;
     float: right;
 }
-#header-nav li{
-    display: inline;
-    padding-left: 20px;
-    margin-top: 0;
-}
-.container {
-    max-width: 1000px;
-    margin: 0;
-}
-#footer {
-    background-color: fuchsia;
-    color: black
-        
-}
-.column {
-    min-width: 300px;
-    display: inline-block;
-    vertical-align: top;
-}
-#footer h4 {
- color: white;
- text-transform: uppercase;
-    letter-spacing: 0.1em;}
-#footer p {
- color: white;
-}
-a {
- color: #1abc9c;
- text-decoration: none;
-}
-a:hover {
- color: black;
-}
-.post, .about {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px 0;
-}
-.post-author img {
- width: 50px;
- height: 50px;
- vertical-align: middle;
-}
 
-.post-author span {
- margin-left: 16px;
-    border: dotted;
-    padding: 3px;
+#footer{
+    padding: 15px;
+    clear:both
+    ;
 }
-.post-date {
-    color: 
+#nav h3 {
+    font-style: italic;
+    color: black;
 }
-h1, h2, h3, h4 {
- color: green;
-    font-style: bold;
-}
-.post-content {
-    border: dotted;
-        padding: 3px;
-}
-
-.about {
-    text-align: center
-}
-
-.post-author, .about-author {border-radius: 50%}
+#header {text-align: center; padding: 10px;}
